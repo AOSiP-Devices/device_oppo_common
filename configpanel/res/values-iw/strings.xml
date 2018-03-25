@@ -16,57 +16,71 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Advanced settings</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">הפעל O-Touch</string>
-  <string name="touchpad_enable_summary">משטח מגע אחורי לניווט בטלפון</string>
-  <string name="touchpad_long_press_title">לחיצה ארוכה להפעלת המצלמה</string>
-  <string name="touchpad_long_press_summary">לחיצה ארוכה על משטח המגע תפעיל את יישום המצלמה</string>
-  <string name="touchpad_double_tap_title">הקשה כפולה לצילום</string>
-  <string name="touchpad_double_tap_summary">בעת שהמצלמה פעילה, הקש פעמיים לצילום תמונה</string>
+  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_long_press_title">Long press to launch camera</string>
+  <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
+  <string name="touchpad_double_tap_title">Double tap to capture</string>
+  <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">מצלמה</string>
-  <string name="touchscreen_camera_gesture_summary">צייר מעגל להפעלת המצלמה</string>
-  <string name="touchscreen_music_gesture_title">מוזיקה</string>
-  <string name="touchscreen_flashlight_gesture_title">פנס</string>
-  <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
-  <string name="touchscreen_music_gesture_summary">השתמש במחוות כדי לשלוט בהשמעת מוזיקה\n
-    • שתי אצבעות אנכית להפעלה\השהייה\n
-    • ציור חץ שמאלה (\'&lt;\') לחזרה לרצועה הקודמת\n
-    • ציור חץ ימינה (\'&gt;\') למעבר לרצועה הבאה</string>
+  <string name="screen_gestures_panel_title">OnePlus Gestures</string>
+  <string name="gestures_dashboard_summary">Gestures specific to OnePlus devices</string>
+  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <string name="touchscreen_camera_gesture_title">Camera</string>
+  <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
+  <string name="touchscreen_music_gesture_title">Music</string>
+  <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+  <string name="touchscreen_flashlight_gesture_summary">Draw a \'V\' to toggle flashlight</string>
+  <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Two fingers vertically to play/pause\n
+    • Draw left arrow (\'&#60;\') for previous track\n
+    • Draw right arrow (\'&#62;\') for next track</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">התחבר</string>
-  <string name="oclick_disconnect_string">התנתק</string>
-  <string name="oclick_summary_connected">מחובר ל-O-Click</string>
-  <string name="oclick_summary_paired">O-Click צורף, אבל מנותק</string>
-  <string name="oclick_dialog_connecting_message">מתחבר ל-O-Click\u2026\nלחץ על לחצן O-Click כדי להאיץ גילוי.</string>
-  <string name="oclick_take_snapshot_title">צמצם מצלמה מרוחק</string>
-  <string name="oclick_take_snapshot_summary">לחיצה בודדת לצילום תמונה</string>
-  <string name="oclick_find_my_phone_title">מאתר טלפון</string>
-  <string name="oclick_find_my_phone_summary">לחץ פעמיים לאיתור טלפון</string>
-  <string name="oclick_fence_title">התראת קרבה</string>
-  <string name="oclick_fence_summary">התראה כאשר אינו קרוב לטלפון</string>
-  <string name="oclick_disconnect_alert_title">התראה כאשר מחוץ לטווח</string>
-  <string name="oclick_disconnect_alert_summary">התראה כאשר נמצא מחוץ להישג יד</string>
-  <string name="alert_category_title">התראות</string>
-  <string name="action_category_title">פעולות</string>
+  <string name="oclick_connect_string">Connect</string>
+  <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
+  <string name="oclick_take_snapshot_title">Remote camera shutter</string>
+  <string name="oclick_take_snapshot_summary">Single click to take picture</string>
+  <string name="oclick_find_my_phone_title">Phone locator</string>
+  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
+  <string name="oclick_fence_title">Proximity alert</string>
+  <string name="oclick_fence_summary">Alert when not near phone</string>
+  <string name="oclick_disconnect_alert_title">Out of range alert</string>
+  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
+  <string name="alert_category_title">Alerts</string>
+  <string name="action_category_title">Actions</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">מאתר טלפון O-Click</string>
-  <string name="oclick_locator_notification_text">התראת מאתר מופעלת. הקש לביטול</string>
-  <string name="oclick_notification_title_connected">O-Click מחובר</string>
-  <string name="oclick_notification_title_disconnected">O-Click מנותק</string>
-  <string name="oclick_notification_content_disconnected">לחץ על לחצן O-Click כדי להתחבר מחדש</string>
+  <string name="oclick_locator_notification_title">O-Click phone locator</string>
+  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
   <!-- Button settings -->
-  <string name="button_panel_title">לחצנים נוספים</string>
-  <string name="button_swap_title">החלף בין לחצנים</string>
-  <string name="button_swap_summary">החלף את סדר הלחצנים ״חזור״ ו״אחרונים״</string>
+  <string name="button_panel_title">Alert Slider</string>
+  <string name="button_swap_title">Swap buttons</string>
+  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="buttons_dashboard_summary">Alert Slider settings</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">מחוון התראות</string>
-  <string name="notification_slider_selection_dialog_title">פעולה</string>
-  <string name="notification_slider_top_position">מיקום עליון</string>
-  <string name="notification_slider_middle_position">מיקום אמצעי</string>
-  <string name="notification_slider_bottom_position">מיקום תחתון</string>
-  <string name="notification_slider_mode_total_silence">שקט מוחלט</string>
-  <string name="notification_slider_mode_alarms_only">התראות בלבד</string>
-  <string name="notification_slider_mode_priority_only">בעל עדיפות בלבד</string>
-  <string name="notification_slider_mode_none">כלום</string>
+  <string name="notification_slider_category_title">Notification slider</string>
+  <string name="notification_slider_selection_dialog_title">Action</string>
+  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
+  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
+  <string name="notification_slider_top_position">Top position</string>
+  <string name="notification_slider_middle_position">Middle position</string>
+  <string name="notification_slider_bottom_position">Bottom position</string>
+  <string name="notification_slider_mode_total_silence">Total silence</string>
+  <string name="notification_slider_mode_alarms_only">Alarms only</string>
+  <string name="notification_slider_mode_priority_only">Priority only</string>
+  <string name="notification_slider_mode_none">All notifications</string>
+  <string name="notification_slider_mode_vibrate">Vibrate</string>
+  <string name="notification_slider_mode_ring">Ring</string>
 </resources>

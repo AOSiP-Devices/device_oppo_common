@@ -16,46 +16,71 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Advanced settings</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Aktivera O-Touch</string>
-  <string name="touchpad_enable_summary">Bakre pekplatta för att navigera telefonen</string>
-  <string name="touchpad_long_press_title">Långtryck för att öppna kamera</string>
-  <string name="touchpad_long_press_summary">Långtryck på pekplattan kommer att öppna kameraappen</string>
-  <string name="touchpad_double_tap_title">Dubbeltryck för att ta bild</string>
-  <string name="touchpad_double_tap_summary">När du är i kameran, dubbeltryck för att ta en bild</string>
+  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_long_press_title">Long press to launch camera</string>
+  <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
+  <string name="touchpad_double_tap_title">Double tap to capture</string>
+  <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Rita en cirkel för att aktivera kamera</string>
-  <string name="touchscreen_music_gesture_title">Musik</string>
-  <string name="touchscreen_flashlight_gesture_title">Ficklampa</string>
-  <string name="touchscreen_flashlight_gesture_summary">Rita ett \"V\" för att använda ficklampan</string>
+  <string name="screen_gestures_panel_title">OnePlus Gestures</string>
+  <string name="gestures_dashboard_summary">Gestures specific to OnePlus devices</string>
+  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <string name="touchscreen_camera_gesture_title">Camera</string>
+  <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
+  <string name="touchscreen_music_gesture_title">Music</string>
+  <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+  <string name="touchscreen_flashlight_gesture_summary">Draw a \'V\' to toggle flashlight</string>
+  <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Two fingers vertically to play/pause\n
+    • Draw left arrow (\'&#60;\') for previous track\n
+    • Draw right arrow (\'&#62;\') for next track</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">Anslut</string>
-  <string name="oclick_disconnect_string">Koppla från</string>
-  <string name="oclick_summary_connected">Ansluten till O-Click</string>
-  <string name="oclick_summary_paired">O-Click parad men bortkopplad</string>
-  <string name="oclick_dialog_connecting_message">Ansluter till O-Click\u2026\nTryck på O-Click knappen för att påskynda upptäckandet.</string>
-  <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>
-  <string name="oclick_take_snapshot_summary">Tryck en gång för att ta en bild</string>
-  <string name="oclick_find_my_phone_title">Telefonlokalisering</string>
-  <string name="oclick_find_my_phone_summary">Dubbeltryck för att hitta telefon</string>
-  <string name="oclick_fence_title">Närhetsvarning</string>
-  <string name="oclick_fence_summary">Varna vid för långt avstånd från telefonen</string>
-  <string name="oclick_disconnect_alert_title">Varning vid utom räckvidd</string>
-  <string name="oclick_disconnect_alert_summary">Varnar vid för långt avstånd för kontakt</string>
-  <string name="alert_category_title">Varningar</string>
-  <string name="action_category_title">Åtgärder</string>
+  <string name="oclick_connect_string">Connect</string>
+  <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
+  <string name="oclick_take_snapshot_title">Remote camera shutter</string>
+  <string name="oclick_take_snapshot_summary">Single click to take picture</string>
+  <string name="oclick_find_my_phone_title">Phone locator</string>
+  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
+  <string name="oclick_fence_title">Proximity alert</string>
+  <string name="oclick_fence_summary">Alert when not near phone</string>
+  <string name="oclick_disconnect_alert_title">Out of range alert</string>
+  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
+  <string name="alert_category_title">Alerts</string>
+  <string name="action_category_title">Actions</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click telefonhittare</string>
-  <string name="oclick_locator_notification_text">Hittasignal spelas. Tryck för att stänga av</string>
-  <string name="oclick_notification_title_connected">O-Click ansluten</string>
-  <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
-  <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
+  <string name="oclick_locator_notification_title">O-Click phone locator</string>
+  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
   <!-- Button settings -->
-  <string name="button_panel_title">Ytterligare knappar</string>
-  <string name="button_swap_title">Växla knappar</string>
+  <string name="button_panel_title">Alert Slider</string>
+  <string name="button_swap_title">Swap buttons</string>
+  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="buttons_dashboard_summary">Alert Slider settings</string>
   <!-- Notification slider -->
-  <string name="notification_slider_mode_alarms_only">Endast alarm</string>
-  <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
-  <string name="notification_slider_mode_none">Ingen</string>
+  <string name="notification_slider_category_title">Notification slider</string>
+  <string name="notification_slider_selection_dialog_title">Action</string>
+  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
+  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
+  <string name="notification_slider_top_position">Top position</string>
+  <string name="notification_slider_middle_position">Middle position</string>
+  <string name="notification_slider_bottom_position">Bottom position</string>
+  <string name="notification_slider_mode_total_silence">Total silence</string>
+  <string name="notification_slider_mode_alarms_only">Alarms only</string>
+  <string name="notification_slider_mode_priority_only">Priority only</string>
+  <string name="notification_slider_mode_none">All notifications</string>
+  <string name="notification_slider_mode_vibrate">Vibrate</string>
+  <string name="notification_slider_mode_ring">Ring</string>
 </resources>

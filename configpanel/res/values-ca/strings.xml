@@ -16,57 +16,71 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Advanced settings</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Activa O-Touch</string>
-  <string name="touchpad_enable_summary">Panell tàctil posterior per navegar el telèfon</string>
-  <string name="touchpad_long_press_title">Pulsació llarga per obrir la càmera</string>
-  <string name="touchpad_long_press_summary">Pulsació llarga al panell tàctil per obrir l\'aplicació de la càmera</string>
-  <string name="touchpad_double_tap_title">Pica dues vegades per capturar</string>
-  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica dues vegades per capturar una imatge</string>
+  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_long_press_title">Long press to launch camera</string>
+  <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
+  <string name="touchpad_double_tap_title">Double tap to capture</string>
+  <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Càmera</string>
-  <string name="touchscreen_camera_gesture_summary">Dibuixa un cercle per activar la càmera</string>
-  <string name="touchscreen_music_gesture_title">Música</string>
-  <string name="touchscreen_flashlight_gesture_title">Llanterna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Dibuixa una \'V\' per canviar a la llanterna</string>
-  <string name="touchscreen_music_gesture_summary">Utilitza gestos per controlar la reproducció de música \n
-    • Dos dits verticalment per reproduir/pausar\n
-    • Dibuixa una fletxa a l\'esquerra (\'&lt;\') per anar a la pista anterior\n
-    • Dibuixa una fletxa a la dreta (\'&gt;\') per anar a la pista següent</string>
+  <string name="screen_gestures_panel_title">OnePlus Gestures</string>
+  <string name="gestures_dashboard_summary">Gestures specific to OnePlus devices</string>
+  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <string name="touchscreen_camera_gesture_title">Camera</string>
+  <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
+  <string name="touchscreen_music_gesture_title">Music</string>
+  <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+  <string name="touchscreen_flashlight_gesture_summary">Draw a \'V\' to toggle flashlight</string>
+  <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Two fingers vertically to play/pause\n
+    • Draw left arrow (\'&#60;\') for previous track\n
+    • Draw right arrow (\'&#62;\') for next track</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">Connecta</string>
-  <string name="oclick_disconnect_string">Desconnecta</string>
-  <string name="oclick_summary_connected">Connectat a O-Click</string>
-  <string name="oclick_summary_paired">O-Click aparellat, però desconnectat</string>
-  <string name="oclick_dialog_connecting_message">S\'està connectant a O-Click\u2026\nPrem el botó O-click per accelerar el descobriment.</string>
-  <string name="oclick_take_snapshot_title">Obturador de càmera remot</string>
-  <string name="oclick_take_snapshot_summary">Clic per fer una fotografia</string>
-  <string name="oclick_find_my_phone_title">Localitzador de telèfon</string>
-  <string name="oclick_find_my_phone_summary">Doble clic per trobar el telèfon</string>
-  <string name="oclick_fence_title">Alerta de proximitat</string>
-  <string name="oclick_fence_summary">Alerta quan no siguis prop del telèfon</string>
-  <string name="oclick_disconnect_alert_title">Alerta de fora de rang</string>
-  <string name="oclick_disconnect_alert_summary">Alerta quan sigui fora de l\'abast</string>
-  <string name="alert_category_title">Alertes</string>
-  <string name="action_category_title">Accions</string>
+  <string name="oclick_connect_string">Connect</string>
+  <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
+  <string name="oclick_take_snapshot_title">Remote camera shutter</string>
+  <string name="oclick_take_snapshot_summary">Single click to take picture</string>
+  <string name="oclick_find_my_phone_title">Phone locator</string>
+  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
+  <string name="oclick_fence_title">Proximity alert</string>
+  <string name="oclick_fence_summary">Alert when not near phone</string>
+  <string name="oclick_disconnect_alert_title">Out of range alert</string>
+  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
+  <string name="alert_category_title">Alerts</string>
+  <string name="action_category_title">Actions</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Localitzador de telèfon O-Click</string>
-  <string name="oclick_locator_notification_text">Alerta de localitzador en curs. Pica per descartar</string>
-  <string name="oclick_notification_title_connected">O-Click connectat</string>
-  <string name="oclick_notification_title_disconnected">O-Click desconnectat</string>
-  <string name="oclick_notification_content_disconnected">Prem el botó O-click per tornar a connectar</string>
+  <string name="oclick_locator_notification_title">O-Click phone locator</string>
+  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
   <!-- Button settings -->
-  <string name="button_panel_title">Botons addicionals</string>
-  <string name="button_swap_title">Intercanvia els botons</string>
-  <string name="button_swap_summary">Intercanvia l\'ordre dels botons recent i enrera</string>
+  <string name="button_panel_title">Alert Slider</string>
+  <string name="button_swap_title">Swap buttons</string>
+  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="buttons_dashboard_summary">Alert Slider settings</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Barra lliscant de notificacions</string>
-  <string name="notification_slider_selection_dialog_title">Acció</string>
-  <string name="notification_slider_top_position">Posició superior</string>
-  <string name="notification_slider_middle_position">Posició central</string>
-  <string name="notification_slider_bottom_position">Posició inferior</string>
-  <string name="notification_slider_mode_total_silence">Silenci total</string>
-  <string name="notification_slider_mode_alarms_only">Només alarmes</string>
-  <string name="notification_slider_mode_priority_only">Només prioritat</string>
-  <string name="notification_slider_mode_none">Cap</string>
+  <string name="notification_slider_category_title">Notification slider</string>
+  <string name="notification_slider_selection_dialog_title">Action</string>
+  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
+  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
+  <string name="notification_slider_top_position">Top position</string>
+  <string name="notification_slider_middle_position">Middle position</string>
+  <string name="notification_slider_bottom_position">Bottom position</string>
+  <string name="notification_slider_mode_total_silence">Total silence</string>
+  <string name="notification_slider_mode_alarms_only">Alarms only</string>
+  <string name="notification_slider_mode_priority_only">Priority only</string>
+  <string name="notification_slider_mode_none">All notifications</string>
+  <string name="notification_slider_mode_vibrate">Vibrate</string>
+  <string name="notification_slider_mode_ring">Ring</string>
 </resources>

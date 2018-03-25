@@ -16,53 +16,71 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Advanced settings</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch 사용</string>
-  <string name="touchpad_enable_summary">뒷면 터치패드로 휴대전화 탐색</string>
-  <string name="touchpad_long_press_title">길게 눌러 카메라 실행</string>
-  <string name="touchpad_long_press_summary">터치패드를 길게 눌러 카메라 어플리케이션을 실행합니다</string>
-  <string name="touchpad_double_tap_title">두 번 탭하여 사진 촬영</string>
-  <string name="touchpad_double_tap_summary">카메라 앱에서 두 번 탭하여 사진을 촬영합니다</string>
+  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_long_press_title">Long press to launch camera</string>
+  <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
+  <string name="touchpad_double_tap_title">Double tap to capture</string>
+  <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">카메라</string>
-  <string name="touchscreen_camera_gesture_summary">원을 그려 카메라 열기</string>
-  <string name="touchscreen_music_gesture_title">음악</string>
-  <string name="touchscreen_flashlight_gesture_title">손전등</string>
-  <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 손전등 토글</string>
+  <string name="screen_gestures_panel_title">OnePlus Gestures</string>
+  <string name="gestures_dashboard_summary">Gestures specific to OnePlus devices</string>
+  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <string name="touchscreen_camera_gesture_title">Camera</string>
+  <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
+  <string name="touchscreen_music_gesture_title">Music</string>
+  <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+  <string name="touchscreen_flashlight_gesture_summary">Draw a \'V\' to toggle flashlight</string>
+  <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Two fingers vertically to play/pause\n
+    • Draw left arrow (\'&#60;\') for previous track\n
+    • Draw right arrow (\'&#62;\') for next track</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">연결</string>
-  <string name="oclick_disconnect_string">연결 해제</string>
-  <string name="oclick_summary_connected">O-Click에 연결됨</string>
-  <string name="oclick_summary_paired">O-Click 페어링 되었으나 연결 끊김</string>
-  <string name="oclick_dialog_connecting_message">O-Click에 연결 중\u2026\n탐색 속도를 높이려면 O-Click 버튼을 누르십시오.</string>
-  <string name="oclick_take_snapshot_title">원격 카메라 셔터</string>
-  <string name="oclick_take_snapshot_summary">한 번 클릭해서 사진 촬영</string>
-  <string name="oclick_find_my_phone_title">휴대전화 찾기</string>
-  <string name="oclick_find_my_phone_summary">두 번 클릭으로 휴대전화 찾기</string>
-  <string name="oclick_fence_title">분실 경고</string>
-  <string name="oclick_fence_summary">휴대전화에서 멀어지면 알림</string>
-  <string name="oclick_disconnect_alert_title">범위 이탈 경고</string>
-  <string name="oclick_disconnect_alert_summary">범위를 벗어났을 때 알림</string>
-  <string name="alert_category_title">경고</string>
-  <string name="action_category_title">동작</string>
+  <string name="oclick_connect_string">Connect</string>
+  <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
+  <string name="oclick_take_snapshot_title">Remote camera shutter</string>
+  <string name="oclick_take_snapshot_summary">Single click to take picture</string>
+  <string name="oclick_find_my_phone_title">Phone locator</string>
+  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
+  <string name="oclick_fence_title">Proximity alert</string>
+  <string name="oclick_fence_summary">Alert when not near phone</string>
+  <string name="oclick_disconnect_alert_title">Out of range alert</string>
+  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
+  <string name="alert_category_title">Alerts</string>
+  <string name="action_category_title">Actions</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click 전화 로케이터</string>
-  <string name="oclick_locator_notification_text">위치 경보가 작동 중입니다. 탭하여 해제</string>
-  <string name="oclick_notification_title_connected">O-Click 연결 됨</string>
-  <string name="oclick_notification_title_disconnected">O-Click 연결 끊김</string>
-  <string name="oclick_notification_content_disconnected">다시 연결하려면 O-Click 버튼을 누르십시오.</string>
+  <string name="oclick_locator_notification_title">O-Click phone locator</string>
+  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
   <!-- Button settings -->
-  <string name="button_panel_title">기타 버튼</string>
-  <string name="button_swap_title">버튼 바꾸기</string>
-  <string name="button_swap_summary">최근 앱과 뒤로 버튼의 위치 바꾸기</string>
+  <string name="button_panel_title">Alert Slider</string>
+  <string name="button_swap_title">Swap buttons</string>
+  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="buttons_dashboard_summary">Alert Slider settings</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">알림 슬라이더</string>
-  <string name="notification_slider_selection_dialog_title">작업</string>
-  <string name="notification_slider_top_position">위 위치</string>
-  <string name="notification_slider_middle_position">중간 위치</string>
-  <string name="notification_slider_bottom_position">아래 위치</string>
-  <string name="notification_slider_mode_total_silence">모두 차단</string>
-  <string name="notification_slider_mode_alarms_only">알람만</string>
-  <string name="notification_slider_mode_priority_only">중요 알림만</string>
-  <string name="notification_slider_mode_none">끔</string>
+  <string name="notification_slider_category_title">Notification slider</string>
+  <string name="notification_slider_selection_dialog_title">Action</string>
+  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
+  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
+  <string name="notification_slider_top_position">Top position</string>
+  <string name="notification_slider_middle_position">Middle position</string>
+  <string name="notification_slider_bottom_position">Bottom position</string>
+  <string name="notification_slider_mode_total_silence">Total silence</string>
+  <string name="notification_slider_mode_alarms_only">Alarms only</string>
+  <string name="notification_slider_mode_priority_only">Priority only</string>
+  <string name="notification_slider_mode_none">All notifications</string>
+  <string name="notification_slider_mode_vibrate">Vibrate</string>
+  <string name="notification_slider_mode_ring">Ring</string>
 </resources>

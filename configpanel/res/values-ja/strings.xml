@@ -16,57 +16,71 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Advanced settings</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touchを有効化</string>
-  <string name="touchpad_enable_summary">リアタッチパッドを携帯電話の操作に使用する</string>
-  <string name="touchpad_long_press_title">長押しでカメラを起動</string>
-  <string name="touchpad_long_press_summary">タッチパッドを長押ししてカメラアプリを起動する</string>
-  <string name="touchpad_double_tap_title">ダブルタップしてシャッター</string>
-  <string name="touchpad_double_tap_summary">カメラアプリを起動中にダブルタップしてシャッターを切る</string>
+  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_long_press_title">Long press to launch camera</string>
+  <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
+  <string name="touchpad_double_tap_title">Double tap to capture</string>
+  <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">カメラ</string>
-  <string name="touchscreen_camera_gesture_summary">円を描いてカメラを有効にする</string>
-  <string name="touchscreen_music_gesture_title">音楽</string>
-  <string name="touchscreen_flashlight_gesture_title">フラッシュライト</string>
-  <string name="touchscreen_flashlight_gesture_summary">Vを描いてフラッシュライトを切り替える</string>
-  <string name="touchscreen_music_gesture_summary">ジェスチャーを使用して音楽の再生をコントロールする\n
-    • 2本の指を垂直にスワイプして再生/停止する\n
-    • 左矢印（&lt;）を描いて前のトラックに戻る\n
-    • 右矢印（&gt;）を描いて次のトラックに進む</string>
+  <string name="screen_gestures_panel_title">OnePlus Gestures</string>
+  <string name="gestures_dashboard_summary">Gestures specific to OnePlus devices</string>
+  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <string name="touchscreen_camera_gesture_title">Camera</string>
+  <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
+  <string name="touchscreen_music_gesture_title">Music</string>
+  <string name="touchscreen_flashlight_gesture_title">Flashlight</string>
+  <string name="touchscreen_flashlight_gesture_summary">Draw a \'V\' to toggle flashlight</string>
+  <string name="touchscreen_music_gesture_summary">Use gestures to control music playback \n
+    • Two fingers vertically to play/pause\n
+    • Draw left arrow (\'&#60;\') for previous track\n
+    • Draw right arrow (\'&#62;\') for next track</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">接続</string>
-  <string name="oclick_disconnect_string">切断</string>
-  <string name="oclick_summary_connected">O-Clickに接続しました</string>
-  <string name="oclick_summary_paired">O-Clickはペアリングされていますが、接続していません</string>
-  <string name="oclick_dialog_connecting_message">O-Clickに接続しています\u2026\nO-Clickボタンをクリックすると早く接続できます。</string>
-  <string name="oclick_take_snapshot_title">リモートカメラシャッター</string>
-  <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮影する</string>
-  <string name="oclick_find_my_phone_title">携帯電話ロケータ</string>
-  <string name="oclick_find_my_phone_summary">ダブルクリックで携帯電話を探す</string>
-  <string name="oclick_fence_title">接近警告</string>
-  <string name="oclick_fence_summary">携帯電話が近くにないときに警告する</string>
-  <string name="oclick_disconnect_alert_title">範囲外警告</string>
-  <string name="oclick_disconnect_alert_summary">範囲外に出たときに警告する</string>
-  <string name="alert_category_title">警告</string>
-  <string name="action_category_title">動作</string>
+  <string name="oclick_connect_string">Connect</string>
+  <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
+  <string name="oclick_take_snapshot_title">Remote camera shutter</string>
+  <string name="oclick_take_snapshot_summary">Single click to take picture</string>
+  <string name="oclick_find_my_phone_title">Phone locator</string>
+  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
+  <string name="oclick_fence_title">Proximity alert</string>
+  <string name="oclick_fence_summary">Alert when not near phone</string>
+  <string name="oclick_disconnect_alert_title">Out of range alert</string>
+  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
+  <string name="alert_category_title">Alerts</string>
+  <string name="action_category_title">Actions</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click携帯電話ロケータ</string>
-  <string name="oclick_locator_notification_text">ロケータアラートを再生しています。タップして終了します。</string>
-  <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
-  <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
-  <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
+  <string name="oclick_locator_notification_title">O-Click phone locator</string>
+  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
   <!-- Button settings -->
-  <string name="button_panel_title">追加のボタン</string>
-  <string name="button_swap_title">ボタンを入れ替える</string>
-  <string name="button_swap_summary">[履歴]ボタンと[戻る]ボタンの順番を入れ替える</string>
+  <string name="button_panel_title">Alert Slider</string>
+  <string name="button_swap_title">Swap buttons</string>
+  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="buttons_dashboard_summary">Alert Slider settings</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">通知スライダー</string>
-  <string name="notification_slider_selection_dialog_title">動作</string>
-  <string name="notification_slider_top_position">上部</string>
-  <string name="notification_slider_middle_position">中央</string>
-  <string name="notification_slider_bottom_position">下部</string>
-  <string name="notification_slider_mode_total_silence">完全にサイレント</string>
-  <string name="notification_slider_mode_alarms_only">アラームのみ</string>
-  <string name="notification_slider_mode_priority_only">優先する通知のみ</string>
-  <string name="notification_slider_mode_none">なし</string>
+  <string name="notification_slider_category_title">Notification slider</string>
+  <string name="notification_slider_selection_dialog_title">Action</string>
+  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
+  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
+  <string name="notification_slider_top_position">Top position</string>
+  <string name="notification_slider_middle_position">Middle position</string>
+  <string name="notification_slider_bottom_position">Bottom position</string>
+  <string name="notification_slider_mode_total_silence">Total silence</string>
+  <string name="notification_slider_mode_alarms_only">Alarms only</string>
+  <string name="notification_slider_mode_priority_only">Priority only</string>
+  <string name="notification_slider_mode_none">All notifications</string>
+  <string name="notification_slider_mode_vibrate">Vibrate</string>
+  <string name="notification_slider_mode_ring">Ring</string>
 </resources>
