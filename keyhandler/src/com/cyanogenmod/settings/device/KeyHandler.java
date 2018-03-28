@@ -43,7 +43,6 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.SystemClock;
 import android.os.UserHandle;
-import android.os.SystemProperties;
 import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -80,8 +79,6 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final int MODE_NONE = 603;
     private static final int MODE_VIBRATE = 604;
     private static final int MODE_RING = 605;
-
-    private static final String PROP_IGNORE_AUTO = "persist.op.slider_ignore_auto";
 
     private static final int GESTURE_WAKELOCK_DURATION = 3000;
 
@@ -265,19 +262,7 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         if (isSliderModeSupported) {
-            boolean ignoreAuto = SystemProperties.get(PROP_IGNORE_AUTO).equals("true");
             boolean isAutoModeActive = false;
-
-            if (ignoreAuto) {
-                ZenModeConfig zmc = mNotificationManager.getZenModeConfig();
-                int len = zmc.automaticRules.size();
-                for (int i = 0; i < len; i++) {
-                    if (zmc.automaticRules.valueAt(i).isAutomaticActive()) {
-                        isAutoModeActive = true;
-                        break;
-                    }
-                }
-            }
 
             if (!isAutoModeActive) {
                 if (scanCode <= MODE_NONE) {
