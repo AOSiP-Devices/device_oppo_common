@@ -72,15 +72,13 @@
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Bildirim kaydırıcı</string>
   <string name="notification_slider_selection_dialog_title">Eylem</string>
-  <string name="notification_slider_ignore_auto_title">Disable during automatic rules</string>
-  <string name="notification_slider_ignore_auto_summary">Ignore the slider when an automatic rule is active</string>
   <string name="notification_slider_top_position">Üst konum</string>
   <string name="notification_slider_middle_position">Orta konum</string>
   <string name="notification_slider_bottom_position">Alt konum</string>
   <string name="notification_slider_mode_total_silence">Tamamen sessiz</string>
   <string name="notification_slider_mode_alarms_only">Yalnızca alarmlar</string>
   <string name="notification_slider_mode_priority_only">Yalnızca öncelikli olanlar</string>
-  <string name="notification_slider_mode_none">All notifications</string>
-  <string name="notification_slider_mode_vibrate">Vibrate</string>
-  <string name="notification_slider_mode_ring">Ring</string>
+  <string name="notification_slider_mode_none">Tüm bildirimler</string>
+  <string name="notification_slider_mode_vibrate">Titreşim</string>
+  <string name="notification_slider_mode_ring">Zil sesi</string>
 </resources>
