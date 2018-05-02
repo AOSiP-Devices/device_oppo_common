@@ -47,27 +47,27 @@
   <string name="oclick_take_snapshot_title">Zdalna migawka aparatu</string>
   <string name="oclick_take_snapshot_summary">Naciśnij, aby zrobić zdjęcie</string>
   <string name="oclick_find_my_phone_title">Lokalizator telefonu</string>
-  <string name="oclick_find_my_phone_summary">Double click to find phone</string>
-  <string name="oclick_fence_title">Proximity alert</string>
-  <string name="oclick_fence_summary">Alert when not near phone</string>
-  <string name="oclick_disconnect_alert_title">Out of range alert</string>
-  <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
-  <string name="alert_category_title">Alerts</string>
-  <string name="action_category_title">Actions</string>
+  <string name="oclick_find_my_phone_summary">Naciśnij dwukrotnie by odnaleźć telefon</string>
+  <string name="oclick_fence_title">Wybudzenie czujnikiem zbliżeniowym</string>
+  <string name="oclick_fence_summary">Alarm gdy nie ma telefonu w pobliżu</string>
+  <string name="oclick_disconnect_alert_title">Alarm zasięgowy</string>
+  <string name="oclick_disconnect_alert_summary">Alarm gdy poza zasięgiem</string>
+  <string name="alert_category_title">Alarmy</string>
+  <string name="action_category_title">Akcje</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click phone locator</string>
-  <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
-  <string name="oclick_notification_title_connected">O-Click connected</string>
-  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
-  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <string name="oclick_locator_notification_title">Lokalizator telefonu O-Click</string>
+  <string name="oclick_locator_notification_text">Alert lokalizatora jest wyświetlany. Dotknij, aby odrzucić</string>
+  <string name="oclick_notification_title_connected">O-Click połączony</string>
+  <string name="oclick_notification_title_disconnected">O-Click niepołączony</string>
+  <string name="oclick_notification_content_disconnected">Naciśnij przycisk O-Click, aby połączyć ponownie</string>
   <!-- haptic feedback  -->
-  <string name="touchscreen_extras">Extras</string>
-  <string name="haptic_feedback">Haptic feedback</string>
-  <string name="haptic_feedback_summary">Vibrate when a gesture is detected</string>
+  <string name="touchscreen_extras">Dodatki</string>
+  <string name="haptic_feedback">Wibracja przy naciśnięciu</string>
+  <string name="haptic_feedback_summary">Wibruj gdy gest zostanie wykryty</string>
   <!-- Button settings -->
-  <string name="button_panel_title">Alert Slider</string>
-  <string name="button_swap_title">Swap buttons</string>
-  <string name="button_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="button_panel_title">Przełącznik powiadomień</string>
+  <string name="button_swap_title">Zamień przyciski</string>
+  <string name="button_swap_summary">Zamień miejscami przyciski ostatnio uruchomionych aplikacji i powrotu</string>
   <string name="buttons_dashboard_summary">Ustawienia suwaka powiadomień</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Suwak powiadomień</string>
