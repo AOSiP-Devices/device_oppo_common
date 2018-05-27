@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Advanced settings</string>
+  <string name="app_name">고급 설정</string>
   <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Enable O-Touch</string>
   <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>

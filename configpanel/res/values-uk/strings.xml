@@ -19,7 +19,7 @@
   <string name="app_name">Розширені параметри</string>
   <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Увімкнути O-Touch</string>
-  <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
+  <string name="touchpad_enable_summary">Сенсорна панель на задній стороні телефону</string>
   <string name="touchpad_long_press_title">Довгий дотик активує камеру</string>
   <string name="touchpad_long_press_summary">Довгий дотик на сенсорну панель запустить програму камери</string>
   <string name="touchpad_double_tap_title">Подвійне натискання для зйомки</string>
@@ -78,7 +78,7 @@
   <string name="notification_slider_mode_total_silence">Без сигналів</string>
   <string name="notification_slider_mode_alarms_only">Лише будильник</string>
   <string name="notification_slider_mode_priority_only">Лише пріоритетні</string>
-  <string name="notification_slider_mode_none">All notifications</string>
-  <string name="notification_slider_mode_vibrate">Vibrate</string>
-  <string name="notification_slider_mode_ring">Ring</string>
+  <string name="notification_slider_mode_none">Всі повідомлення</string>
+  <string name="notification_slider_mode_vibrate">Вібрація</string>
+  <string name="notification_slider_mode_ring">Дзвінок</string>
 </resources>

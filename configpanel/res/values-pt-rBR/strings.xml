@@ -65,7 +65,7 @@
   <string name="haptic_feedback">Feedback haptic</string>
   <string name="haptic_feedback_summary">Vibrar quando um gesto é detectado</string>
   <!-- Button settings -->
-  <string name="button_panel_title">Slider de Alerta</string>
+  <string name="button_panel_title">Alerta do controle deslizante</string>
   <string name="button_swap_title">Troca de botões</string>
   <string name="button_swap_summary">Troque a ordem dos botões Recentes e Voltar</string>
   <string name="buttons_dashboard_summary">Configurações do controle deslizante de alerta</string>
