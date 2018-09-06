@@ -26,7 +26,7 @@
   <string name="touchpad_double_tap_summary">カメラアプリを起動中にダブルタップでシャッターを切る</string>
   <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">OnePlusジェスチャー</string>
-  <string name="gestures_dashboard_summary">OnePlusデバイス固有のジェスチャー</string>
+  <string name="gestures_dashboard_summary">OnePlus端末固有のジェスチャー</string>
   <string name="touchscreen_double_tap_gesture_title">スリープ解除</string>
   <string name="touchscreen_double_tap_gesture_summary">ダブルタップで端末のスリープを解除する</string>
   <string name="touchscreen_camera_gesture_title">カメラ</string>
@@ -78,7 +78,7 @@
   <string name="notification_slider_mode_total_silence">サイレント</string>
   <string name="notification_slider_mode_alarms_only">アラームのみ</string>
   <string name="notification_slider_mode_priority_only">優先通知のみ</string>
-  <string name="notification_slider_mode_none">すべての通知</string>
+  <string name="notification_slider_mode_none">全ての通知</string>
   <string name="notification_slider_mode_vibrate">振動</string>
   <string name="notification_slider_mode_ring">着信</string>
 </resources>
