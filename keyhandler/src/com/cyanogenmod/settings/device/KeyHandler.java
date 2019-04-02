@@ -130,7 +130,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 "GestureWakeLock");
 
         final Resources resources = mContext.getResources();
-        mProximityTimeOut = resources.getInteger(
+        /*mProximityTimeOut = resources.getInteger(
                 com.android.internal.R.integer.config_proximityCheckTimeout);
         mProximityWakeSupported = resources.getBoolean(
                 com.android.internal.R.bool.config_proximityCheckOnWake);
@@ -140,7 +140,7 @@ public class KeyHandler implements DeviceKeyHandler {
             mProximitySensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
             mProximityWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
                     "ProximityWakeLock");
-        }
+        }*/
 
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
         if (mVibrator == null || !mVibrator.hasVibrator()) {
@@ -274,7 +274,7 @@ public class KeyHandler implements DeviceKeyHandler {
 		if (scanCode == MODE_NONE) {
 		    mAudioManager.setRingerModeInternal(sSupportedSliderModes.get(MODE_RING));
 		}
-		    
+
 
 		if (mVibrator != null) {
 		    mVibrator.vibrate(40);
@@ -282,7 +282,7 @@ public class KeyHandler implements DeviceKeyHandler {
             }
         } else if (!mEventHandler.hasMessages(GESTURE_REQUEST)) {
             Message msg = getMessageForKeyEvent(scanCode);
-            boolean defaultProximity = mContext.getResources().getBoolean(
+            /*boolean defaultProximity = mContext.getResources().getBoolean(
                 com.android.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
             boolean proximityWakeCheckEnabled = Settings.System.getInt(mContext.getContentResolver(),
                     Settings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
@@ -291,7 +291,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 processEvent(scanCode);
             } else {
                 mEventHandler.sendMessage(msg);
-            }
+            }*/
         }
         return null;
     }
